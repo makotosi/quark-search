@@ -1,0 +1,105 @@
+/* Searched page */
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+	color: #00172f;
+	margin-left: 20px;
+    font-size: 46px;
+    float: left;
+    outline: medium none;
+    text-decoration: none;
+    text-shadow: 2px 0 rgba(0, 0, 0, 0.6), 0 0 6px #8FB5C8, 0 0 30px rgba(143, 181, 200, 0.7);
+    margin-right: 30px;
+}
+
+h2{
+    font: 25px Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+    color: gray;
+    margin-left: 54px;
+}
+
+.index{
+    margin-bottom: 20px;
+    margin-left: 24px;
+}
+
+.index p{
+    font: 21px Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+}
+
+HR{
+    background-color: #00172f;
+    height: 1px;
+}
+
+#button{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#000000 0%,
+		#003366);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#000000),
+		to(#003366));
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #ffffff;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+form{
+    padding-top: 3%;
+}
+
+#data{
+    margin-left: 30px;
+}
+
+a{
+    font: 34px Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+    color: #4577D4;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#keyword{
+    width: 370px;
+    height: 27px;
+    font-size: 18px;
+}
+
+footer{
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    color: white;
+    background-color: #002d5a;
+}
